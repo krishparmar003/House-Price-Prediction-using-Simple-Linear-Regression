@@ -2,3 +2,7 @@
 
 An interactive web app built with **Streamlit** that predicts house prices based on size using **Simple Linear Regression**. 
 Enter a house size and instantly get a price estimate with a live scatter plot visualization.
+
+### To Run the app
+```bash
+streamlit run main.py
