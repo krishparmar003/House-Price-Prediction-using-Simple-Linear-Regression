@@ -33,7 +33,7 @@ def main():
 
     model = train_model()
 
-    size = st.number_input('House Size', min_value=500, max_value=2000, value=0)
+    size = st.number_input('House Size', min_value=500, max_value=2000, value=1250)
 
     if st.button('Predict Price'):
         predicted_price = model.predict([[size]])
