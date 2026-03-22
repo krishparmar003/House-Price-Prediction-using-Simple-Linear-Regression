@@ -24,5 +24,28 @@ def train_model():
 
     return model
 
+def main():
+    st.title("Simple Linear Regression House Price Prediction App")
+
+    st. write("Put your House Size to know its Price")
+
+    model = train_model()
+
+    size = st.number_input('House Size', min_value=500, max_value=2000, value=0)
+
+    if st.button('Predict Price'):
+        predicted_price = model.predict([[size]])
+        st.success(f'Estimated Price: ${predicted_price[0]:,.2f}')
+
+        df = generate_house_data()
+
+        fig = px.scatter(df, x="size", y="price", title="Size v/s House Price")
+        fig.add_scatter(x=[size], y=[predicted_price[0]],
+                mode='markers',
+                marker=dict(size=15, color='red'),
+                name='Prediction')
+        
+        st.plotly_chart(fig)
+        
 
 
