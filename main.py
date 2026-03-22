@@ -46,6 +46,9 @@ def main():
                 name='Prediction')
         
         st.plotly_chart(fig)
+
+if __name__ == '__main__':
+    main()      
         
 
 
