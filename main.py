@@ -3,6 +3,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+import plotly.express as px
+
 def generate_house_data(n_samples=100):
     np.random.seed(50)
     size = np.random.normal(1400, 50, n_samples)
@@ -27,7 +29,7 @@ def train_model():
 def main():
     st.title("Simple Linear Regression House Price Prediction App")
 
-    st. write("Put your House Size to know its Price")
+    st.write("Put your House Size to know its Price")
 
     model = train_model()
 
