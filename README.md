@@ -6,8 +6,8 @@ An end-to-end ML web app that predicts house prices based on size using Simple L
 
 ---
 
-(<img width="1886" height="907" alt="Screenshot" src="https://github.com/user-attachments/assets/99fd6558-b205-43e4-8ed4-4f38e7600753" />
-)
+<img width="950" height="455" alt="Screenshot" src="https://github.com/user-attachments/assets/99fd6558-b205-43e4-8ed4-4f38e7600753" />
+
 
 ---
 
