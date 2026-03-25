@@ -6,7 +6,7 @@ An end-to-end ML web app that predicts house prices based on size using Simple L
 
 ---
 
-![App Screenshot](<img width="1886" height="907" alt="Screenshot" src="https://github.com/user-attachments/assets/99fd6558-b205-43e4-8ed4-4f38e7600753" />
+(<img width="1886" height="907" alt="Screenshot" src="https://github.com/user-attachments/assets/99fd6558-b205-43e4-8ed4-4f38e7600753" />
 )
 
 ---
@@ -30,7 +30,7 @@ Enter a house size (in sq ft) and the app instantly predicts its price and visua
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/House-Price-Prediction-using-Simple-Linear-Regression.git
+git clone https://github.com/krishparmar003/House-Price-Prediction-using-Simple-Linear-Regression.git
 cd House-Price-Prediction-using-Simple-Linear-Regression
 pip install -r requirements.txt
 streamlit run main.py
